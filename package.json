@@ -1,0 +1,13 @@
+{
+  "name": "Backside",
+  "version": "1.0.0",
+  "description": "A trendy JS side menu component.",
+  "author": "Adam Dorsey",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/picdorsey/backside.git"
+  },
+  "dependencies": {
+    "tween.js": "~0.14.0"
+  }
+}
