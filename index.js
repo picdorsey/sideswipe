@@ -1,5 +1,5 @@
 /*
-    Backside - A trendy JS side menu component.
+    SideSwipe - A trendy JS side menu component.
     Copyright (c) 2015 Piccirilli Dorsey, Inc.
  */
 
