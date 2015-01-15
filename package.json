@@ -1,11 +1,11 @@
 {
   "name": "sideswipe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A trendy JS side menu component.",
   "author": "Adam Dorsey",
   "repository": {
     "type": "git",
-    "url": "git://github.com/picdorsey/backside.git"
+    "url": "git://github.com/picdorsey/sideswipe.git"
   },
   "dependencies": {
     "tween.js": "~0.14.0"

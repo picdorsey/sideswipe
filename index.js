@@ -3,4 +3,4 @@
     Copyright (c) 2015 Piccirilli Dorsey, Inc.
  */
 
-module.exports = require('./lib/backside');
+module.exports = require('./lib/sideswipe');
