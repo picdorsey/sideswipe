@@ -1,7 +1,13 @@
 {
   "name": "sideswipe",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A trendy JS side menu component.",
+  "keywords": [
+    "slide",
+    "sidenav",
+    "menu",
+    "component"
+  ],
   "author": "Adam Dorsey",
   "repository": {
     "type": "git",
