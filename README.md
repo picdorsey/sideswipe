@@ -44,6 +44,8 @@ new Menu({
 });
 ```
 
+SideSwipe uses the wonderful tween.js package. The default easing is InOut, you can pass it anything listed [here](http://sole.github.io/tween.js/examples/03_graphs.html).
+
 SideSwipe requires the menuHandle, menuPanel and page classes to be defined.
 
 Here is some HTML to get you started:
