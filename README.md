@@ -61,13 +61,28 @@ Here is some HTML to get you started:
     ...
 </div>
 
-<nav class="side-nav sideswipe-menu">
+<nav class="sideswipe-menu">
     <ul>
         <li><a href="#">Item One</li>
         <li><a href="#">Item One</li>
     </ul>
 </nav>
 
+```
+
+And some CSS for the sideswipe-menu:
+
+```
+.sideswipe-menu{
+    position: fixed;
+    top: 0;
+    right: -270px;
+    bottom: 0;
+    width: 270px;
+    background-color: #efefef;
+    z-index: 9999;
+    overflow-y: auto;
+}
 ```
 
 ## Credits
