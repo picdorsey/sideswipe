@@ -1,6 +1,6 @@
 {
   "name": "sideswipe",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A trendy JS side menu component.",
   "keywords": [
     "slide",
@@ -12,6 +12,12 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/picdorsey/sideswipe.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "browserify": "~5.10.1"
   },
   "dependencies": {
     "tween.js": "~0.14.0"
