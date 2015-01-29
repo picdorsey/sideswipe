@@ -35,6 +35,8 @@ Customize the menu:
 
 ```
 new Menu({
+    overlay: true,
+    overlayOpacity:.25,
     pan: true,
     side: 'left',
     menuHandleClass: 'sideswipe-handle',
@@ -76,7 +78,7 @@ And some CSS for the sideswipe-menu:
 .sideswipe-menu{
     position: fixed;
     top: 0;
-    right: -270px;
+    left: -270px;
     bottom: 0;
     width: 270px;
     background-color: #efefef;
