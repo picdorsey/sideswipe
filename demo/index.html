@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SideSwipe Demo</title>
+    <style>
+        body{
+            padding: 30px;
+            background-color: #efefef;
+        }
+        .sideswipe-menu{
+            position: fixed;
+            top: 0;
+            left: -270px;
+            bottom: 0;
+            width: 270px;
+            background-color: #efefef;
+            z-index: 9999;
+            overflow-y: auto;
+        }
+        .sideswipe-handle{
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <button class="sideswipe-handle" type="button">Toggle Menu</button>
+    </header>
+
+    <div class="sideswipe-page">
+        <h1>SideSwipe Demo</h1>
+        <p>Click the "Toggle Menu" - It's so cool.</p>
+    </div>
+
+    <nav class="sideswipe-menu">
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </nav>
+
+    <script src="demo.min.js"></script>
+
+</body>
+</html>
