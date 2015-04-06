@@ -11,7 +11,7 @@ SideSwipe is a really simple side menu component written in vanilla JS.
 
 ## Installation
 
-```
+```javascript
 npm install sideswipe
 ```
 
@@ -19,13 +19,13 @@ npm install sideswipe
 
 Require it:
 
-```
+```javascript
 var Menu = require('sideswipe');
 ```
 
 Initialize it:
 
-```
+```javascript
 window.onload = function(){
     new Menu();
 };
@@ -33,7 +33,7 @@ window.onload = function(){
 
 Customize the menu:
 
-```
+```javascript
 new Menu({
     overlay: true,
     overlayOpacity:.25,
@@ -52,7 +52,7 @@ SideSwipe requires the menuHandle, menuPanel and page classes to be defined.
 
 Here is some HTML to get you started:
 
-```
+```html
 <header>
     <a class="sideswipe-handle" href="#">
         <span class="hamburger-icon"></span>
@@ -74,7 +74,7 @@ Here is some HTML to get you started:
 
 And some CSS for the sideswipe-menu:
 
-```
+```css
 .sideswipe-menu{
     position: fixed;
     top: 0;
